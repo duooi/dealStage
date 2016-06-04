@@ -1,0 +1,149 @@
+/*个人中心样式*/
+@import url(../../baseStyle.css);
+
+
+/*顶部用户头像区域*/
+#header{
+    background:url("../../../images/localProduct/showPic/bgPic.png") no-repeat left top;
+    background-size:100% 100%;
+    padding:.26rem 0;
+    text-align: center;
+    font-family: "方正兰亭黑简体";
+}
+
+#header #user_info #user_logo{
+    border:1px solid #fff;
+    width:1.28rem;
+    height:1.28rem;
+    padding:.04rem;
+    margin:0 auto;
+    border-radius:100%;
+    overflow: hidden;
+}
+
+#header #user_info #user_logo span{
+    display: block;
+    width:1.2rem;
+    height:1.2rem;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+#header #user_info #user_logo img{
+    width:1.6rem;
+    height:1.2rem;
+    margin-left:-0.4rem;
+}
+
+#header #user_info p{
+    font-size:0.2rem;
+    color:#fff;
+    margin:.12rem 0 0 0;
+}
+
+/* 交易操作区域 */
+#content{
+    font-family: "方正兰亭黑简体";
+    background-color:#ebebeb;
+    padding:.25rem 0 0 0;
+}
+
+#content .content_deal_type{
+    padding:.26rem;
+    background-color:#fff;
+}
+
+#content .content_deal_type header{
+    overflow: hidden;
+    padding-bottom: .25rem;
+    border-bottom: 1px solid #d2d2d2;
+}
+
+#content .content_deal_type h2{
+    margin:0;
+    font-size:.28rem;
+    float:left;
+}
+
+#content .content_deal_type a{
+    font-size:.2rem;
+    color:#888888;
+    float:right;
+}
+
+#content .content_deal_type a span{
+    font-size:.2rem;
+    margin-left:.16rem;
+}
+
+#content .row{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+#content .content_deal_type .row li{
+    padding:.22rem .36rem 0;
+}
+
+#content .content_deal_type .row li a{
+    display: block;
+    text-align: center;
+}
+
+#content .content_deal_type .row li a img{
+    width:.48rem;
+    height:.46rem;
+    display: block;
+    margin:0 auto;
+    margin-bottom:.18rem;
+}
+
+/* 商品收藏、收货地址管理等操作 */
+.content_deal_info{
+    background-color:#fff;
+    margin-top:.2rem;
+}
+
+.content_deal_info .row li{
+    border:1px solid #eaeaea;
+    border-left:none;
+    border-top:none;
+    text-align: center;
+    width:2.12rem;
+    height:1.8rem;
+    padding-top:.42rem;
+}
+
+.content_deal_info .row2 li{
+    border-bottom: none;
+}
+
+.content_deal_info .row li:last-child{
+    border-right:none;
+}
+
+.content_deal_info .row li a{
+    color:#555555;
+    font-size:.2rem;
+    display: block;
+    padding:0;
+
+}
+
+.content_deal_info .row li a img{
+    width:.5rem;
+    height:.5rem;
+    display: block;
+    margin:0 auto;
+    margin-bottom: .2rem;
+} 
+
+/* 商铺中心按钮 */
+#content_shopcenter_btn{
+    width:5.86rem;
+    margin:.34rem .26rem .25rem;
+    padding:.24rem 0;
+    font-size:.28rem;
+    background-color: #d81f2d;
+}

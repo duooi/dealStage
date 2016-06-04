@@ -1,0 +1,87 @@
+/* 推荐商品详情 */
+.goods_promote{
+	clear:left;
+	background-color:#ebebeb;
+	padding:.2rem .26rem;
+}
+
+.promote_inner{
+	background-color:#fff;
+	padding:.25rem .25rem 0 .25rem;
+	border-radius: 0.08rem;
+}
+
+.promote_inner header{
+	border-bottom:1px solid #d2d2d2;
+}
+
+.promote_inner header{
+	overflow: hidden;
+	margin-bottom:.25rem;
+}
+
+.promote_inner header h3{
+	float:left;
+	border-bottom:.06rem solid #ee3637;
+	font-family:"方正兰亭黑简体";
+	font-size:.3rem;
+	padding-bottom:.18rem;
+	margin:0;
+	font-weight:bold;
+}
+
+.promote_inner header a{
+	float:right;
+	font-size:.2rem;
+	font-family:"方正兰亭黑简体";
+	color:#888888;
+}
+
+.promote_inner header a span{
+	font-size:.16rem;
+	margin-left:.14rem;
+}
+
+.promote_inner div[class*=col-]{
+	margin-bottom:.34rem;
+}
+
+.promote_inner .thumbnail{
+	padding:0;
+	border:none;
+	margin-bottom:0.14rem;
+}
+
+.promote_inner img{
+	width:100%;
+}
+
+.promote_inner .caption{
+	padding:0;
+}
+
+.promote_inner .caption h3{
+	font-size:.22rem;
+	color:#555555;
+	font-family:"方正兰亭黑简体";
+	margin:0 0 .16rem 0;
+}
+
+.promote_inner .caption p .price{
+	float:left;
+	color:#ed0a0a;
+	font-size:.34rem;
+}
+
+.promote_inner .caption p .price .price_icon{
+	font-size:.2rem;
+	margin-right: -0.04rem;
+}
+
+.promote_inner .caption p .shopcar{
+	width:.5rem;
+	height:.5rem;
+	float:right;
+	background:url("../../../images/localProduct/icons/shopCar.jpg") no-repeat left top;
+	background-size:cover;
+}

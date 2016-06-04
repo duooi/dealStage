@@ -1,0 +1,47 @@
+/* 特价商品首页 */
+@import url(../../baseStyle.css);
+@import url(promote.css);
+@import url(../../footer_menu.css);
+@import url(../../carousel.css);
+@import url(../../dialog.css);
+
+/*icon部分*/
+.goods_type img{
+	width:1.1rem;
+	height:1.1rem;
+	display: block;
+	margin:0 auto;
+}
+
+.goods_type .row{
+	margin:0;
+	padding:0;
+}
+
+.goods_type .row div[class*=col-]{
+	border:1px solid #d2d2d2;
+	border-top:none;
+	border-left:none;
+	text-align: center;
+	padding:.14rem 0;
+}
+
+.goods_type .row1 div:last-child{
+	border-right: none;
+}
+
+.goods_type .row2 div[class*=col-]{
+	border-bottom: none;
+}
+
+.goods_type .row div[class*=col-] a{
+	display: block;
+	font-family:"方正兰亭黑简体";
+	font-weight:bold;
+	font-size:.24rem;
+	color:#676767;
+}
+
+
+
+

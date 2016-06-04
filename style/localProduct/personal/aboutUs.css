@@ -1,0 +1,75 @@
+/* 关于我们样式 */
+@import url(../../baseStyle.css);
+
+/* 文章的介绍标题 */
+#page_wrap{
+	background-color:#ebebeb;
+}
+
+#page_title{
+	padding: 0.32rem 0.45rem;
+	margin-bottom: 
+}
+
+#page_title h3{
+	margin:0 0 0.2rem 0;
+	font-size:0.38rem;
+	font-weight: bold;
+}
+
+#page_title p{
+	margin:0;
+}
+
+#page_title p .now_date{
+	margin-right:0.15rem;
+	font-size:0.25rem;
+	color:#8e8e8e;
+}
+
+#page_title p a{
+	font-size:0.28rem;
+	color:#5d7a98;
+}
+
+/* 文章的介绍内容 */
+#page_content{
+	padding:0 0.44rem;
+}
+
+#page_content p{
+	color:#222222;
+	text-indent: 2em;
+	font-size:0.22rem;
+	line-height:0.36rem;
+	margin: 0 0 0.34rem 0;
+}
+
+/* 平台的联系方式地址 */
+footer{
+	border-top:1px solid #d2d2d2;
+	background-color:#fff;
+	padding:0.35rem 0;
+}
+
+footer p{
+	width:5.4rem;
+	margin:0 auto 0.08rem;
+	padding-left:0.52rem;
+	color:#555555;
+	font-size:0.2rem;
+}
+
+footer .shop_phone{
+	background:url(../../../images/localProduct/icons/call_icon.png) no-repeat left top;
+	background-size:0.36rem 0.33rem;
+	height:0.33rem;
+	line-height:0.33rem;
+}
+
+footer .shop_addr{
+	background:url(../../../images/localProduct/icons/addr_icon.png) no-repeat left top;
+	background-size:0.36rem 0.36rem;
+	height:0.36rem;
+	line-height: 0.36rem; 
+}

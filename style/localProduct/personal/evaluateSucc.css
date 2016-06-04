@@ -1,0 +1,26 @@
+@import url(../../baseStyle.css);
+
+html,#page_wrap{
+	background-color:#ebebeb;
+	text-align: center;
+}
+
+#page_wrap{
+	padding-top:1.73rem;
+	font-size:0.3rem;
+	color:#666666;
+}
+
+#page_wrap p{
+	line-height:0.58rem;
+}
+
+#page_wrap p img{
+	width:2.31rem;
+	height:2.27rem;
+	margin-bottom: 0.4rem;
+}
+
+#page_wrap p .time{
+	color:#ff6600;
+}

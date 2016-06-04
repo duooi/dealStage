@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>新增收货地址</title>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="../../style/localProduct/personal/goodsAddr.css"></head>
+<body>
+	<div id="page_wrap">
+		<form action="#" method="post">
+			<input type="text" placeholder="收货人" class="form-control" id="r_name" />
+			<input type="text" placeholder="手机号码" class="form-control" id="r_phone" />
+			<div class="row">
+				<div class="col-xs-4">
+					<select id="r_province" class="form-control">
+						<option value="广东省">广东省</option>
+						<option value="广西省">广西省</option>
+						<option value="河南省">河南省</option>
+						<option value="河北省">河北省</option>
+					</select>
+				</div>
+				<div class="col-xs-4">
+					<select id="r_city" class="form-control">
+						<option value="广东省">广州市</option>
+						<option value="广西省">深圳市</option>
+					</select>
+				</div>
+				<div class="col-xs-4">
+					<select id="r_area" class="form-control">
+						<option value="广东省">番禺区</option>
+						<option value="广西省">天河区</option>
+						<option value="河南省">荔湾区</option>
+					</select>
+				</div>
+			</div>
+			<select id="r_addr" class="form-control">
+				<option value="街道" selected disabled>街道</option>
+				<option value="广东省">石牌村</option>
+				<option value="广西省">天河区</option>
+				<option value="河南省">荔湾区</option>
+			</select>
+			<input type="text" placeholder="详细地址" class="form-control" id="r_addr" />
+			<input type="text" placeholder="邮编" class="form-control" id="r_postcode" />
+			<div class="set_default">
+				<span>设为默认地址</span>
+				<span class="checkbox">
+					<span class="glyphicon glyphicon-ok"></span>
+				</span>
+			</div>
+			<button type="submit" class="btn" id="save_btn">保存</button>
+		</form>
+	</div>
+
+	<script type="text/javascript" src="../../js/flexible.js"></script>
+	<script type="text/javascript" src="../../js/jquery-1.12.3.min.js"></script>
+	<script type="text/javascript" src="../../js/localProduct/personal/personal.js"></script>
+</body>
+</html>

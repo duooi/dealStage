@@ -1,0 +1,41 @@
+/* 特长商品（更多）样式 */
+@import url(../../baseStyle.css);
+@import url(promote.css);
+@import url(../../footer_menu.css);
+@import url(../../dialog.css);
+
+
+/* 头部导航 */
+#header_nav,#header_nav ul{
+	margin:0;
+	padding:0;
+}
+
+#header_nav ul li{
+	list-style-type: none;
+	width:20%;
+	padding:.26rem 0;
+	float:left;
+	text-align: center;
+	font-size:.28rem;
+	font-weight: bold;
+}
+
+#header_nav ul li a{
+	color:#888888;
+}
+
+#header_nav ul li.active{
+	border-bottom: .03rem solid #d81f2d;
+}
+
+#header_nav ul li.active a{
+	color:#d81f2d;
+}
+
+a:hover,
+a:link,
+a:active,
+a:visited{
+	text-decoration: none;
+}

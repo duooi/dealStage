@@ -1,0 +1,164 @@
+/* 商品收藏页样式 */
+@import url(../../baseStyle.css);
+@import url(../../dialog.css);
+
+html{
+	background-color:#ebebeb;
+}
+
+#page_wrap{
+	background-color:#ebebeb;
+}
+
+header{
+	overflow: hidden;
+	padding:0.25rem 0.5rem;
+	background-color:#d81f2d;
+	padding:0.25rem 0;
+}
+
+header h5{
+	margin:0;
+	color:#fff;
+	font-size: 0.25rem;
+	text-align: center;
+}
+
+header .back_btn{
+	background:url(../../../images/localProduct/icons/back.png) no-repeat left top;
+	background-size: 100%;
+	width:0.34rem;
+	height:0.27rem;
+	position: absolute;
+	left:0.25rem;
+}
+
+/* 商品列表详情 */
+
+.goods_promote .row{
+	background-color:#fff;
+	border:1px solid #d2d2d2;
+	margin:0.17rem 0 0 0;
+	padding:0.28rem 0.17rem;
+}
+
+.goods_promote .row div[class*=col-],
+.goods_promote .row .media-left{
+	padding:0;
+}
+
+.goods_promote .row .media-left a img{
+	width:1.67rem;
+	height:1.67rem;
+	margin-right: 0.17rem;
+}
+
+.goods_promote .row .media-body h4{
+	font-size:0.3rem;
+	color:#111111;
+	float:left;
+	margin:0;
+}
+
+.goods_promote .row .media-body .appoint_status{
+	color:#d81f2d;
+	float: right;
+	font-size:0.22rem;
+}
+
+.goods_promote .row .media-body p{
+	clear:left;
+	font-size:0.2rem;
+	color:#555555;
+	margin:0;
+}
+
+.goods_promote .row .media-body .main_service{
+	border-bottom: 1px dashed #d2d2d2;
+	padding:0.18rem 0;
+}
+
+.goods_promote .row .media-body .appoint_service{
+	padding-top:0.18rem;
+	color:#ee3637;
+}
+
+.goods_promote .row .media-body .btn_group{
+	overflow: hidden;
+	margin-top:0.25rem;
+}
+
+.goods_promote .row .media-body .btn{
+	background-color:#d81f2d;
+	color:#fff;
+	font-size:0.2rem;
+	padding:0.13rem 0.47rem;
+	border-radius: 0.07rem;
+	margin-left: 0.15rem;
+	float:right;
+}
+
+.goods_promote .row .media-body .evaluate{
+	background-color:#2a96db;
+}
+
+/* 详细内容 */
+#detail_content{
+	position: fixed;
+	z-index:5;
+	top:0.95rem;
+	left:0.27rem;
+	right:0.27rem;
+	max-width: 706px;
+	min-width: 280px;
+	margin:0 auto;
+	display: none;
+}
+
+#detail_content [class*=detail_]{
+	background-color:#fff !important;
+	border-radius: 0.04rem;
+	padding:0.2rem 0 0.2rem 0.78rem;
+	font-size:0.22rem;
+	color:#888888;
+	background-size:0.4rem 0.4rem !important;
+	line-height: 0.33rem;
+}
+
+#detail_content .detail_title{
+	background:url(../../../images/localProduct/icons/appoint/icon_01.png) no-repeat 0.2rem center;
+
+}
+
+#detail_content .detail_time{
+	background:url(../../../images/localProduct/icons/appoint/icon_02.png) no-repeat 0.2rem center;
+} 
+
+#detail_content .detail_count{
+	background:url(../../../images/localProduct/icons/appoint/icon_03.png) no-repeat 0.2rem center;
+}
+
+#detail_content .detail_description{
+	background:url(../../../images/localProduct/icons/appoint/icon_04.png) no-repeat 0.2rem 0.15rem;
+	height:3.23rem;
+}
+
+#detail_content .close_btn{
+	width:100%;
+	background-color:#d81f2d;
+	font-size:0.28rem;
+	color:#fff;
+	border:none;
+	border-radius: 0.04rem;
+	margin-top:0.28rem;
+	padding:0.25rem;
+}
+
+
+
+
+
+
+
+
+

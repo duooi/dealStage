@@ -1,0 +1,47 @@
+/* banner图片轮播部分 */
+.carousel{
+	overflow: hidden;
+	position: relative;
+}
+
+.carousel-inner{
+	overflow: hidden;
+	position: relative;
+}
+
+.carousel-inner img{
+	width:100%;
+}
+
+.carousel .carousel-indicators{
+	background-color:#d0c4a4;
+	float: left;
+	width:0.67rem;
+	height:0.18rem;
+	border-radius:0.12rem;
+	margin:0 0 0 -0.33rem;
+	padding:0 0.04rem;
+	z-index:3;
+}
+
+.carousel .carousel-indicators li{
+	float:left;
+	width:0.12rem;
+	height:0.12rem;
+	margin:0.03rem 0;
+	background-color:#fff;
+	border-radius: 100%;
+}
+
+.carousel .carousel-indicators li:nth-of-type(2){
+	margin-left: 0.12rem;
+}
+
+.carousel .carousel-indicators li:last-child{
+	float:right;
+}
+
+.carousel .carousel-indicators li.active{
+	background-color:#d81f2d;
+	border:none;
+}

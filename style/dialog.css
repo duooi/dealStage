@@ -1,0 +1,175 @@
+/* 对话框样式 */
+
+
+/* 普通弹出框 */
+#dialog_cover{
+	max-width: 768px;
+	min-width: 320px;
+	position: fixed;
+	margin:0 auto;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background:rgba(90,90,90,0.6);
+	z-index:5;
+	display: none;
+}
+
+#simple_dialog{
+	position: fixed;
+	top:50%;
+	left:50%;
+	width:3.35rem;
+	margin:0 auto;
+	margin-top:-1.25rem;
+	margin-left:-1.68rem;
+	text-align: center;
+	background-color:#fff;
+	font-family: "方正兰亭黑简体";
+	font-size: 0.2rem;
+	border-radius: 0.08rem;
+	z-index:6;
+	display: none;
+}
+
+#simple_dialog figure{
+	padding:0.37rem 0;
+	border-bottom: 1px solid #d2d2d2;
+}
+
+#simple_dialog figure img{
+	width:0.96rem;
+	height:0.86rem;
+	margin-bottom: 0.22rem;
+}
+
+#simple_dialog figure p{
+	margin:0;
+	color:#333333;
+	font-weight: bold;
+}
+
+#simple_dialog .sure_btn{
+	font-weight: bold;
+}
+
+
+/* 特殊特殊框 */
+#specify_dialog{
+	position: fixed;
+	z-index:4;
+	width:100%;
+	bottom:0;
+	height:;
+	background-color:#fff;
+	display: none;
+	z-index:6;
+}
+
+#specify_dialog .goods_summary{
+	padding:0.27rem;
+}
+
+#specify_dialog .goods_summary .media{
+	float:left;
+}
+
+#specify_dialog .goods_summary .media img{
+	width:1.0rem;
+	height:1.0rem;
+	margin-right:0.18rem;
+}
+
+#specify_dialog .goods_summary .media-body .goods_caption{
+	overflow: hidden;
+}
+
+#specify_dialog .goods_summary .media-body .goods_caption h3{
+	font-size: 0.2rem;
+	font-weight: bold;
+	color:#555555;
+	width:3.9rem;
+	margin:0;
+	line-height: 0.3rem;
+	float:left;
+}
+
+#specify_dialog .goods_summary .media-body .goods_caption .close_btn{
+	float:right;
+	width:0.42rem;
+	height:0.42rem;
+	background:url(../images/localProduct/icons/close.png) no-repeat left top;
+	background-size:0.4rem 0.4rem;
+}
+
+
+
+#specify_dialog .goods_summary .media-body .goods_price{
+	clear:left;
+	margin-top:0.16rem;
+	color:#d81f2d;
+	font-size:0.25rem;
+}
+
+#specify_dialog .goods_summary .media-body .price_icon{
+	font-size:0.2rem;
+}
+
+#specify_dialog .goods_summary .goods_num{
+	margin-top:0.4rem;
+	font-size:0.2rem;
+	font-weight: bold;
+	line-height: 0.33rem;
+	margin:0.2rem 0 0 0;
+	overflow: hidden;
+}
+
+#specify_dialog .goods_summary .goods_num .num_control{
+	float:right;
+	color:#333333;
+	font-size:0.3rem;
+	font-weight: normal;
+}
+
+#specify_dialog .goods_summary .goods_num .num_control button{
+	width:0.33rem;
+	height:0.33rem;
+	padding:0;
+	margin:0;
+	background-color:#fff;
+	border:1px solid #dfdfdf;
+	color:#999999;
+	outline: none;
+}
+
+#simple_dialog .sure_btn{
+	width:100%;
+	border:none;
+	background-color:#fff;
+	outline: none;
+	display: block;
+	margin:0;
+	padding:0.15rem 0;
+	color:#d81f2d;
+	border-radius: 0.08rem;
+}
+
+#specify_dialog .goods_summary .goods_num .num_control span{
+	padding:0.2rem;
+}
+
+
+#specify_dialog .sure_btn{
+	width:100%;
+	border:none;
+	background-color:#d81f2d;
+	font-size:0.28rem;
+	color:#fff;
+	padding:0.22rem 0;
+}
+
+
+
+
+

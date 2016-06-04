@@ -1,0 +1,212 @@
+/* 商品收藏页样式 */
+@import url(../../baseStyle.css);
+
+html{
+	background-color:#ebebeb;
+}
+
+#page_wrap{
+	background-color:#ebebeb;
+}
+
+header{
+	overflow: hidden;
+	padding:0.25rem 0.5rem;
+	margin:0.25rem 0 0 0;
+	border-top:1px solid #d2d2d2;
+	border-bottom: 1px solid #d2d2d2;
+	background-color:#fff;
+}
+
+header .date_list{
+	position: absolute;
+	z-index:4;
+	background-color:#fff;
+	list-style:none;
+	box-shadow: 0 0 0.01rem #000;
+	padding:0;
+	margin-top:0.23rem;
+	display: none;
+}
+
+header .select_time{
+	font-size:0.3rem;
+}
+
+header i{
+	display: inline-block;
+	border:0.1rem solid #d8d8d8;
+	border-left-color:transparent;
+	border-top-color:transparent;
+	margin-left:0.14rem;
+	margin-bottom:-0.04rem;
+}
+
+header .date_edit{
+	float:right;
+	color:#d81f2d;
+	font-size:0.22rem;
+	padding-top:0.04rem;
+}
+
+header .date_list li{
+	border-bottom:1px solid #e5e5e5;
+	text-align: center;
+	padding:0.24rem 0.28rem;
+	color:#2a2a2a;
+	font-size:0.27rem;
+}
+
+header .date_list li:last-child{
+	border-bottom:none;
+}
+
+
+/* 商品列表详情 */
+.goods_promote{
+	padding-top:0.25rem;
+}
+
+.goods_promote .row{
+	background-color:#fff;
+	border:1px solid #d2d2d2;
+	margin: 0 0.17rem 0.1rem;
+	padding:0.28rem 0.17rem;
+}
+
+.goods_promote .row div[class*=col-]{
+	padding:0;
+}
+
+.goods_promote .row .media-left a img{
+	width:1.67rem;
+	height:1.67rem;
+}
+
+.goods_promote .row .media-body h4{
+	font-size:0.3rem;
+	color:#111111;
+	float:left;
+}
+
+.goods_promote .row .media-body .shop_score{
+	background: url(../../../images/localProduct/icons/star.png) no-repeat left center;
+	background-size:1.17rem 0.25rem;
+	float: right;
+}
+
+.goods_promote .row .media-body .shop_score .score_value{
+	padding-left:1.2rem;
+	color:#fa5900;
+	font-size:0.18rem;
+}
+
+.goods_promote .row .media-body p{
+	clear:left;
+	font-size:0.2rem;
+	color:#555555;
+	margin:0;
+}
+
+.goods_promote .row .media-body .btn{
+	background-color:#ee3637;
+	color:#fff;
+	font-size:0.2rem;
+	padding:0.15rem 0.5rem;
+	border-radius: 0.07rem;
+	position: absolute;
+	right:0;
+	bottom:0;
+}
+
+.goods_promote .row .checkbox{
+	position: absolute;
+	z-index:5;
+	width:0.4rem;
+	height: 0.4rem;
+	border:1px solid #d81f2d;
+	border-radius: 0.04rem;
+	top:-0.28rem;
+	left:-0.17rem;
+	margin:0;
+	background-color:#fff;
+	display: none;
+}
+
+.goods_promote .row .checkbox.active{
+	background-color:#d81f2d;
+}
+
+.row .checkbox span{
+	display: none;
+}
+
+.goods_promote .row .checkbox.active span{
+	display: block;
+	color:#fff;
+	font-size:0.3rem;
+}
+
+
+/* 底部按钮部分 */
+footer{
+	width:100%;
+	background-color:#fff;
+	display: none; 
+	position: fixed;
+	bottom:0;
+	z-index:10;
+}
+
+footer .row div[class*=col-]{
+	border:1px solid #bababa;
+	height:0.82rem;
+	line-height:0.82rem;
+	border-left:none;
+	color:#555555;
+	font-size: 0.25rem;
+	border-bottom: none;
+}
+
+footer .row .checkbox{
+	width:0.4rem;
+	height: 0.4rem;
+	float:left;
+	border:1px solid #d81f2d;
+	border-radius: 0.04rem;
+	background-color:#fff;
+	margin:0.19rem 0.1rem 0.19rem 0.16rem;
+	padding:0;
+}
+
+footer .row .checkbox span{
+	float:left;
+	display: none;
+}
+
+footer .row .checkbox.active{
+	background-color:#d81f2d;
+}
+
+footer .row .checkbox.active span{
+	display: block;
+	color:#fff;
+	font-size:0.3rem;
+}
+
+footer .row div[class*=col-] .del_btn{
+	background-color:#2a96db;
+	color:#fff;
+	padding: 0.13rem 0.75rem;
+	font-size:0.25rem;
+	float:right;
+	margin:0.08rem 0.34rem;
+	outline:none;
+}
+
+
+
+
+
+
+

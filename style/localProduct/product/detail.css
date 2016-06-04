@@ -1,0 +1,179 @@
+/* 特产商品（收藏）样式 */
+@import url(../../baseStyle.css);
+@import url(../../carousel.css);
+
+/* banner图片轮播部分 */
+.carousel-indicators{
+	background-color:transparent !important;
+}
+
+/* 商品信息部分 */
+#goods_content{
+	background-color:#ebebeb;
+	overflow: hidden;
+}
+
+/* 商品名称、价格等简介部分 */
+#goods_content .goods_summary{
+	padding:0.23rem 0.25rem;
+	background-color:#fff;
+	box-shadow: 0 0 0.04rem #000;
+}
+
+#goods_content .goods_summary h3{
+	margin:0 0 0.2rem 0;
+	overflow: hidden;
+}
+
+#goods_content .goods_summary h3 a{
+	font-size:.26rem;
+	font-weight: bold;
+	display: block;
+	float:left;
+	margin-right:0.25rem;
+	width:4.84rem;
+	color:#000;
+	line-height: 0.34rem;
+}
+
+#goods_content .goods_summary h3 .goods_collect{
+	font-size:.18rem;
+	width:0.80rem;
+	display: block;
+	float:left;
+	border-left: 1px solid #dcdcdc;
+}
+
+#goods_content .goods_summary h3 .goods_collect img{
+	width:0.35rem;
+	height:0.35rem;
+	margin-bottom: 0.08rem;
+	margin-left: 0.22rem;
+}
+
+#goods_content .goods_summary h3 .goods_collect .status_text{
+	display: block;
+	text-align: center;
+	font-weight: bold;
+}
+
+#goods_content .goods_summary .goods_price .price_icon{
+	font-size:0.2rem;	
+}
+
+#goods_content .goods_summary .goods_price .now_price{
+	font-size:0.3rem;
+	color:#ed0a0a;
+}
+
+#goods_content .goods_summary .goods_price .initial_price{
+	text-decoration: line-through;
+	font-size: 0.2rem;
+	color:#aaaaaa;
+}
+
+#goods_content .goods_summary .extra_price{
+	font-size:0.18rem;
+	color:#aaaaaa;	
+	margin:0;
+	font-weight: bold;
+}
+
+#goods_content .goods_summary .extra_price .goods_remain{
+	float:right;	
+}
+
+/* 商品详情部分 */
+.goods_detail{
+	margin-top:0.15rem;
+	padding:0.22rem 0.22rem 0 0.22rem;
+	background-color:#fff;
+}
+
+.goods_detail .shop_name{
+	margin:0;
+	padding:0 0 0.22rem 0;
+	border-bottom:1px solid #d2d2d2;
+}
+
+.goods_detail .shop_name img{
+	width:0.28rem;
+	height:0.28rem;
+	margin-right: 0.12rem;
+	margin-top:-0.02rem;
+}
+
+.goods_detail .shop_name a{
+	color:#555555;
+	font-size:0.2rem;
+	font-weight: bold;
+}
+
+.goods_detail .row{
+	padding:0;
+	margin:0;
+}
+
+.goods_detail .row li{
+	background:url(../../../images/localProduct/icons/check.png) no-repeat 0.06rem center;
+	background-size: 0.3rem 0.3rem;
+	padding:0.22rem 0;
+	padding-left: 0.44rem;
+	list-style: none;
+	font-size:0.2rem;
+}
+
+.goods_detail .row li:first-child{
+	background-position: left center;
+	text-align: left;
+	padding-left: 0.38rem;
+}
+
+.goods_detail .row li:last-child{
+	background-position: 0.28rem center;
+	text-align: right;
+}
+
+#goods_content figure img{
+	width:100%;
+}
+
+/* 底部按钮部分 */
+#btngroup{
+	background-color:#fff;
+}
+
+#btngroup div{
+	padding:0.15rem 0.43rem;
+}
+
+#btngroup div:first-child{
+	border-right:1px solid #bababa;
+}
+
+#btngroup div button{
+	width:100%;
+	color:#fff;
+	font-size:0.25rem;
+	padding:0.2rem 0.67rem;
+	border-radius:0.08rem;
+	outline: none;
+	font-weight: bold;
+}
+
+#btngroup div #buy_btn{
+	background-color: #ee3637;
+}
+
+#btngroup div #join_btn{
+	background-color: #2a96db;
+}
+
+a:hover,
+a:link,
+a:active,
+a:visited{
+    text-decoration: none;
+}
+
+

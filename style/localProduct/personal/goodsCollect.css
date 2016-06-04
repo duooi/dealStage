@@ -1,0 +1,164 @@
+/* 商品收藏页样式 */
+@import url(../../baseStyle.css);
+@import url(../product/promote.css);
+@import url(../../dialog.css);
+
+html{
+	height:100%;
+	background-color:#ebebeb;
+}
+
+#page_wrap{
+	background-color:#ebebeb;
+}
+
+header{
+	overflow: hidden;
+	padding-bottom:0.23rem;
+}
+
+header .date_list{
+	position: absolute;
+	z-index:4;
+	background-color:#fff;
+	list-style:none;
+	box-shadow: 0 0 0.01rem #000;
+	padding:0;
+	margin-top:0.23rem;
+	display: none;
+}
+
+header .select_time{
+	font-size:0.3rem;
+}
+
+header i{
+	display: inline-block;
+	border:0.1rem solid #d8d8d8;
+	border-left-color:transparent;
+	border-top-color:transparent;
+	margin-left:0.14rem;
+	margin-bottom:-0.04rem;
+}
+
+header .date_edit{
+	float:right;
+	color:#d81f2d;
+	font-size:0.22rem;
+	padding-top:0.04rem;
+}
+
+header .date_list li{
+	border-bottom:1px solid #e5e5e5;
+	text-align: center;
+	padding:0.24rem 0.28rem;
+	color:#2a2a2a;
+	font-size:0.27rem;
+}
+
+header .date_list li:last-child{
+	border-bottom:none;
+}
+
+
+/* 商品列表详情 */
+.goods_promote .row .thumbnail{
+	position: relative;
+}
+
+.goods_promote .row .checkbox{
+	position: absolute;
+	z-index:5;
+	width:0.4rem;
+	height: 0.4rem;
+	border:1px solid #d81f2d;
+	border-radius: 0.04rem;
+	background-color:#fff;
+	top:0;
+	left:0.25rem;
+	margin:0;
+	display: none;
+}
+
+.goods_promote .row .checkbox span{
+	display: none;
+}
+
+.goods_promote .row .checkbox.active{
+	background-color:#d81f2d;
+}
+
+.goods_promote .row .checkbox.active span{
+	display: block;
+	color:#fff;
+	font-size:0.3rem;
+}
+
+/* 底部按钮部分 */
+footer{
+	width:100%;
+	background-color:#fff;
+	display: none; 
+	position: fixed;
+	bottom:0;
+	z-index:10;
+}
+
+footer .row div[class*=col-]{
+	border:1px solid #bababa;
+	height:0.82rem;
+	line-height:0.82rem;
+	border-left:none;
+	color:#555555;
+	font-size: 0.25rem;
+	border-bottom: none;
+}
+
+footer .row .checkbox{
+	width:0.4rem;
+	height: 0.4rem;
+	float:left;
+	border:1px solid #d81f2d;
+	border-radius: 0.04rem;
+	background-color:#fff;
+	margin:0.19rem 0.1rem 0.19rem 0.16rem;
+	padding:0;
+}
+
+footer .row .checkbox span{
+	float:left;
+	display: none;
+}
+
+footer .row .checkbox.active{
+	background-color:#d81f2d;
+}
+
+footer .row .checkbox.active span{
+	display: block;
+	color:#fff;
+	font-size:0.3rem;
+}
+
+footer .row div[class*=col-] button{
+	outline: none;
+}
+
+footer .row div[class*=col-] .buy_btn{
+	background-color:#ee3637;
+	color:#fff;
+	padding: 0.13rem 0.75rem;
+	font-size:0.25rem;
+	float:left;
+	margin:0.08rem 0;
+}
+
+footer .row div[class*=col-] .del_btn{
+	background-color:#2a96db;
+	color:#fff;
+	padding: 0.13rem 0.75rem;
+	font-size:0.25rem;
+	float:right;
+	margin:0.08rem 0.34rem 0.08rem 0;
+	outline:none;
+}

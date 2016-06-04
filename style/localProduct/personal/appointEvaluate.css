@@ -1,0 +1,169 @@
+/* 商品收藏页样式 */
+@import url(../../baseStyle.css);
+@import url(../../dialog.css);
+
+html{
+	background-color:#ebebeb;
+}
+
+#page_wrap{
+	background-color:#ebebeb;
+}
+
+/* 商品列表详情 */
+
+.user_evaluate .row{
+	background-color:#fff;
+	border-bottom: 1px solid #d2d2d2;
+	margin:0;
+	padding:0.28rem 0.17rem;
+
+}
+
+.user_evaluate .row div[class*=col-],
+.user_evaluate .row .media-left{
+	padding:0;
+}
+
+.user_evaluate .row .media-left a img{
+	width:1.67rem;
+	height:1.67rem;
+	margin-right: 0.17rem;
+}
+
+.user_evaluate .row .media-body h4{
+	font-size:0.3rem;
+	color:#111111;
+	float:left;
+	margin:0;
+}
+
+.user_evaluate .row .media-body p{
+	clear:left;
+	font-size:0.2rem;
+	color:#555555;
+	margin:0;
+}
+
+.user_evaluate .row .media-body .main_service{
+	border-bottom: 1px dashed #d2d2d2;
+	padding:0.18rem 0;
+}
+
+.user_evaluate .row .media-body .appoint_service{
+	padding-top:0.18rem;
+	color:#ee3637;
+}
+
+/* 评价内容 */
+.evaluate_content{
+	width:6.07rem;
+	height:4.47rem;
+	display: block;
+	margin:0.25rem 0.17rem 0 0.17rem;
+	border:1px solid #d2d2d2;
+	font-size:0.22rem;
+	color:#aaaaaa;
+	padding:0.15rem;
+	resize: none;
+	outline: none;
+}
+
+.evaluate_score{
+	width:6.07rem;
+	border:1px solid #d2d2d2;
+	border-top:none;
+	background-color:#fff;
+	margin:0 0.17rem;
+	padding:0.27rem 0.17rem;
+	font-size:0.25rem;
+	color:#555555;
+	overflow: hidden;
+}
+
+.evaluate_score p{
+	float:left;
+	margin:0;
+	padding-top:0.08rem;
+}
+
+.evaluate_score ul{
+	float:left;
+	overflow: hidden;
+	padding:0;
+	margin:0 0 0 0.19rem;
+	list-style:none;
+}
+
+.evaluate_score ul li{
+	float:left;
+	width:0.38rem;
+	height:0.38rem;
+	background:url(../../../images/localProduct/icons/appoint/star.png) no-repeat;
+	background-size:2.7rem 2.77rem;
+	margin:0.04rem;
+}
+
+.evaluate_score ul .score_one{
+	background-position:-0.22rem -0.06rem;
+}
+
+.evaluate_score ul .score_two{
+	background-position:-0.22rem -0.06rem;
+}
+
+.evaluate_score ul .score_three{
+	background-position: -1.15rem -0.06rem;
+}
+
+.evaluate_score ul .score_four{
+	background-position: -1.62rem -0.06rem;
+}
+
+.evaluate_score ul .score_five{
+	background-position: -2.07rem -0.06rem;
+}
+
+.evaluate_score .score_value{
+	float:left;
+	padding-top:0.1rem;
+	margin-left:0.2rem;
+	color:#fa5900;
+	font-size:0.23rem;
+}
+
+.evaluate_score ul .score_one_click{
+	background-position: -0.22rem -0.52rem;
+}
+
+.evaluate_score ul .score_two_click{
+	background-position: -0.22rem -0.97rem;
+}
+
+.evaluate_score ul .score_three_click{
+	background-position: -0.22rem -1.43rem;
+}
+
+.evaluate_score ul .score_four_click{
+	background-position: -0.22rem -1.88rem;
+}
+
+.evaluate_score ul .score_five_click{
+	background-position: -0.22rem -2.33rem;
+}
+
+.evaluate_inner .sub_btn{
+	width:6.07rem;
+	display: block;
+	font-size:0.28rem;
+	margin:0.25rem 0.17rem 0 0.17rem;
+	background-color:#ee3637;
+	color:#fff;
+	text-align: center;
+	padding:0.25rem 0;
+	border-radius: 0.04rem;
+}
+
+
+
+

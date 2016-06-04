@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>我的预约</title>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="../../style/localProduct/personal/evaluateSucc.css"></head>
+<body>
+	<div id="page_wrap">
+		<p><img src="../../images/localProduct/icons/appoint/success.png"/></p>
+		<p>提交评论成功！</p>
+		<p><span class="time">3</span>&nbsp;秒后返回商铺首页......</p>
+	</div>
+	<script type="text/javascript" src="../../js/flexible.js"></script>
+	<script type="text/javascript" src="../../js/jquery-1.12.3.min.js"></script>
+	<script>
+		var time = $(".time");
+		var timer = null;
+		var i=3;
+		
+		timer = setInterval(function(){
+			--i;
+			time.html(i);
+			if(i==0){
+				clearInterval(timer);
+				window.location = "shopCollect.html";
+			}
+		},1000);
+	</script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+/* 底部导航样式 */
+
+footer{
+	background-color:#fff;
+}
+
+footer,footer .row{
+	padding:0;
+	margin:0;
+	overflow: hidden;
+}
+
+footer .nav_home{
+	width:14%;
+	height:100%;
+	float:left;
+	margin:0;
+	text-align: center;
+	border-top:1px solid #d2d2d2;
+}
+
+footer .nav_home a img{
+	width:.5rem;
+	height:.44rem;
+	margin-top:.18rem;
+}
+
+footer .row{
+	width:86%;
+	float:right;
+}
+
+footer .row li{
+	list-style-type: none;
+	font-size:.26rem;
+	font-weight: bold;
+	font-family:"方正兰亭黑简体";
+	padding:.26rem .36rem;
+	border:1px solid #d2d2d2;
+	text-align: center;
+	border-right:none;
+	border-bottom:none;
+}
+
+footer .row li a{
+	color:#000;
+}

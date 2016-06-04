@@ -1,0 +1,247 @@
+/* 购物车样式 */
+@import url(../../baseStyle.css);
+
+html{
+	background-color:#ebebeb;
+}
+
+#page_wrap{
+	background-color:#ebebeb;
+}
+
+.goods_classify{
+	overflow: hidden;
+	margin:0 0 0.17rem 0;
+	background-color:#fff;
+	color:#555555;
+}
+
+.goods_classify .shop_name{
+	margin:0.21rem 0.25rem 0;
+	background:url(../../../images/localProduct/icons/shop.png) no-repeat left top;
+	background-size: 0.3rem 0.28rem;
+	line-height: 0.28rem;
+	padding:0 0 0.2rem 0.38rem;
+	font-size:0.2rem;
+	color:#555555;
+	border-bottom: 1px solid #d2d2d2;
+}
+
+.row{
+	background-color:#fff;
+	margin:0;
+	padding:0.28rem 0.25rem 0;
+}
+
+.row div[class*=col-]{
+	padding:0;
+	border-bottom:1px dashed #d2d2d2;
+}
+
+.goods_classify .row:last-child div[class*=col-]{
+	border-bottom:none;
+}
+
+.row .media{
+	padding-bottom: 0.28rem;
+}
+
+.row .media-left{
+	position: relative;
+}
+
+.row .media-left a img{
+	width:1.33rem;
+	height:1.33rem;
+}
+
+.row .media-body h4{
+	font-size:0.2rem;
+	float:left;
+	line-height: 0.25rem;
+}
+
+.row .media-body .goods_servicer{
+	clear:left;
+	font-size:0.17rem;
+	color:#999999;
+	margin:0;
+}
+
+.row .media-body .goods_price{
+	font-size:0.2rem;
+	color:#d81f2d;
+}
+
+.row .media-body .goods_price span{
+	font-size:0.25rem;
+}
+
+.row .media-body .goods_deal{
+	margin:0.21rem 0 0 0;
+}
+
+.row .media-body .goods_num{
+	width:1.42rem;
+	float:right;
+	color:#333333;
+	font-size:0.28rem;
+	line-height: 0.33rem;
+	overflow: hidden;
+	text-align: center;
+}
+
+.row .media-body .goods_num button{
+	width:0.33rem;
+	height:0.33rem;
+	padding:0;
+	margin:0;
+	background-color:#fff;
+	border:1px solid #dfdfdf;
+	color:#999999;
+	outline: none;
+}
+
+.row .media-body .goods_num .sub_btn{
+	float:left;
+}
+
+.row .media-body .goods_num .add_btn{
+	float:right;
+}
+
+.row .checkbox{
+	position: absolute;
+	z-index:5;
+	width:0.4rem;
+	height: 0.4rem;
+	border:1px solid #d81f2d;
+	border-radius: 0.04rem;
+	top:0;
+	left:0;
+	margin:0;
+	background-color:#fff;
+}
+
+.row .checkbox.active{
+	background-color:#d81f2d;
+}
+
+.row .checkbox span{
+	display: none;
+}
+
+.row .checkbox.active span{
+	display: block;
+	color:#fff;
+	font-size:0.3rem;
+}
+
+.goods_promote{
+	padding-top:0.25rem;
+}
+
+
+/* 底部按钮部分 */
+footer{
+	width:100%;
+	background-color:#fff;
+	position:relative;
+	bottom:0;
+	z-index:10;
+}
+
+footer .row{
+	padding:0;
+	border-top:1px solid #bababa;
+}
+
+footer .row div[class*=col-]{
+	height:0.82rem;
+	line-height:0.82rem;
+	color:#555555;
+	font-size: 0.25rem;
+	border-bottom: none;
+}
+
+footer .row .col-xs-3:first-child{
+	text-align: center;
+	padding-left:0.4rem;
+}
+
+footer .row .checkbox{
+	width:0.4rem;
+	height: 0.4rem;
+	float:left;
+	border:1px solid #d81f2d;
+	border-radius: 0.04rem;
+	background-color:#fff;
+	margin:0.19rem 0.1rem 0.19rem 0.2rem;
+}
+
+footer .row .checkbox span{
+	float:left;
+	display: none;
+}
+
+footer .row .checkbox.active{
+	background-color:#d81f2d;
+}
+
+footer .row .checkbox.active span{
+	display: block;
+	color:#fff;
+	font-size:0.3rem;
+}
+
+footer .row div[class*=col-] .del_btn{
+	background:url(../../../images/localProduct/icons/delete.png) no-repeat 0.1rem 0.14rem;
+	width:100%;
+	height:100%;
+	background-size: 0.43rem 0.45rem;
+	display: block;
+	padding-left:0.56rem;
+}
+
+footer .row div.col-xs-4{
+	font-size:0.2rem;
+	line-height: 0.6rem;
+	text-align: right;
+}
+
+footer .row div[class*=col-] .price_sum{
+	color:#d81f2d;
+	font-size:0.2rem;
+	padding-right: 0.3rem;
+}
+
+footer .row div[class*=col-] .price_sum span{
+	font-size:0.25rem;
+}
+
+footer .row div.col-xs-4>span:last-child{
+	line-height: 0;
+	float:right;
+	padding-right:0.3rem;
+	color:#888888;
+}
+
+footer .price_account{
+	display: block;
+	background-color:#d81f2d;
+	color:#fff;
+	text-align: center;
+	margin-left:-0.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+

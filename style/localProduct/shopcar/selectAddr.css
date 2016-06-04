@@ -1,0 +1,6 @@
+@import url(../personal/goodsAddr.css);
+
+.addr_area .user_addr p span{
+	color:#d81f2d;
+	font-size:0.2rem;
+}

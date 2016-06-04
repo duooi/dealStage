@@ -1,0 +1,49 @@
+@import url(../../baseStyle.css);
+
+html{
+	background-color:#ebebeb;
+}
+
+#page_wrap{
+	background-color:#ebebeb;
+	text-align: center;
+	padding-top:2.0rem;
+}
+
+#page_wrap h2 img{
+	width:2.54rem;
+	height:2.27rem;
+}
+
+#page_wrap p{
+	color:#aaaaaa;
+	font-size:0.2rem;
+	margin-top:0.5rem;
+}
+
+#page_wrap .btn_group{
+	color:#fff;
+	margin:1.5rem 0.27rem;
+	overflow: hidden;
+}
+
+#page_wrap .btn_group button{
+	padding:0.25rem 0.93rem;
+	font-size:0.28rem;
+	border-radius: 0.08rem;
+	outline:none;
+}
+
+#page_wrap .btn_group button:focus{
+	color:#fff;
+}
+
+#page_wrap .btn_group #collect_btn{
+	background-color:#ee3637;
+	float:left;
+}
+
+#page_wrap .btn_group #shop_btn{
+	background-color:#2a96db;
+	float:right;
+}
